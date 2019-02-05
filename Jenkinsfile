@@ -23,11 +23,12 @@ void comment_issues() {
 
 pipeline {
     agent {
+	label "docker"
         // Run these stages within a Docker container
-        docker {
-            image 'node:6-alpine'
-            args '-p 3000:3000 -p 5000:5000 -e HOME=.'
-        }
+        //docker {
+        //    image 'node:6-alpine'
+        //    args '-p 3000:3000 -p 5000:5000 -e HOME=.'
+        //}
     }
     environment {
         CI = 'true'
