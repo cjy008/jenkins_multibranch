@@ -1,7 +1,6 @@
 #!groovy
 //
 //
-//
 
 @NonCPS
 void comment_issues() {
