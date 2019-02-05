@@ -1,7 +1,6 @@
 # building-a-multibranch-pipeline-project
 
-This repository is for the
-[Build a multibranch Pipeline project](https://jenkins.io/doc/tutorials/build-a-multibranch-pipeline-project/)
+This repository is for the [Build a multibranch Pipeline project](https://jenkins.io/doc/tutorials/build-a-multibranch-pipeline-project/)
 tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
 
 This tutorial uses the same application that the [Build a Node.js and React app
