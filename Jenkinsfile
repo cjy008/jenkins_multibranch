@@ -23,7 +23,6 @@ void comment_issues() {
 
 pipeline {
     agent {
-	label "docker"
         // Run these stages within a Docker container
         docker {
             image 'node:6-alpine'
